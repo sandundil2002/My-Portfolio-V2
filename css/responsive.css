@@ -53,6 +53,23 @@
     .img {
         width: 85%;
     }
+
+    .skills .wrap {
+        padding: 0 20px;
+    }
+
+    .skills .wrap>p {
+        width: 100%;
+    }
+
+    .interest {
+        width: 90%;
+    }
+
+    .iteamCircle {
+        height: 70px;
+        width: 70px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -103,6 +120,51 @@
         width: 100%;
         filter: blur(0px) grayscale(0) drop-shadow(10px 10px 15px black);
         z-index: -1;
+    }
+
+    .skills .wrap {
+        grid-template-areas: 'text' 'iteams' 'interest';
+    }
+
+    .interest {
+        margin: 20px auto;
+        width: 75%;
+    }
+
+    .skillIteams {
+        grid-template-areas: 'iteam4 . iteam5 . iteam3'
+            '. iteam1 . iteam2 .';
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        margin-top: 20px;
+    }
+
+    .iteam1 {
+        grid-area: iteam1;
+        justify-self: end;
+    }
+
+    .iteam2 {
+        grid-area: iteam2;
+        justify-self: start;
+    }
+
+    .iteam3 {
+        grid-area: iteam3;
+    }
+
+    .iteam4 {
+        grid-area: iteam4;
+    }
+
+    .iteam5 {
+        grid-area: iteam5;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .iteamCircle {
+        height: 60px;
+        width: 60px;
     }
 }
 
@@ -237,5 +299,18 @@
 
     .about h2 {
         font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .iteamCircle {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .iteam p {
+        font-size: 0.8rem;
     }
 }
