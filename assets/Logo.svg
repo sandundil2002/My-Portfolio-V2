@@ -1,0 +1,10 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 57.1 59.56">
+  <defs>
+    <style>
+      .cls-1 { fill: #0c1621; stroke: #75c69c; stroke-miterlimit: 10; stroke-width: 3px; }
+      .cls-2 { fill: #75c69c; }
+    </style>
+  </defs>
+  <polygon class="cls-1" points="1.5 15.74 1.5 43.83 28.55 57.87 55.6 43.83 55.6 15.74 28.55 1.69 1.5 15.74"/>
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" class="cls-2" font-family="Arial" font-size="24">SD</text>
+</svg>

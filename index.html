@@ -1,14 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/responsive.css">
-    <link rel="icon" href="/assets/portfolio-website-icon.svg">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="icon" href="./assets/Logo.svg">
 </head>
+
 <body>
+    <nav>
+        <a href=""><img src="./assets/Logo.svg" alt=""></a>
+        <ul>
+            <li><a href="#About">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+        <menu>
+            <hr id="hr1">
+            <hr id="hr2">
+            <hr id="hr3">
+        </menu>
+    </nav>
+
+    <div class="phoneMenu">
+        <h2><a href="#About" onclick="hideMenu();">About</a></h2>
+        <h2><a href="#Skills" onclick="hideMenu();">Skills</a></h2>
+        <h2><a href="#Projects" onclick="hideMenu();">Projects</a></h2>
+        <h2><a href="#Contact" onclick="hideMenu();">Contact</a></h2>
+    </div>
+
+    <section class="right">
+        <h2><a href="mailto:pritmanvar1109@gmail.com">sandundil2002@gmail.com</a></h2>
+        <hr>
+    </section>
     
+    <section class="left socials">
+        <a href="https://www.linkedin.com/in/sandun-dilshan-a640b7272" target="_blank"><img src="./assets/linkedin.svg"
+                alt="LinkedIn"></a>
+        <a href="https://github.com/sandundil2002" target="_blank"><img src="./assets/github.svg" alt="GitHub"></a>
+        <a href="https://twitter.com/sandundil2002" target="_blank"><img src="./assets/twitter.svg" alt="Twitter"></a>
+        <hr>
+    </section>
+    
+    <div class="contactButton">
+        <div class="first">
+            <div class="second" style="--i:1">
+                <div class="third" style="--i:2">
+                    <div class="fourth" style="--i:3"></div>
+                </div>
+            </div>
+        </div>
+        <img src="./icons/contact.svg" alt="" class="contactIcon">
+        <img src="./icons/close.svg" alt="" class="closeIcon">
+    </div>
+
 </body>
+
 </html>
