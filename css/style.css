@@ -132,7 +132,7 @@ button:active {
     top: 3px;
 }
 
-/* Navigation Bar */
+/*--------------------------------------Navigation Bar-----------------------------------------*/
 nav {
     width: 100%;
     min-height: 10vh;
@@ -321,7 +321,7 @@ ul li {
     align-items: center;
 }
 
-/*Home*/
+/*--------------------------------------------Home---------------------------------------------*/
 
 .home {
     display: flex;
@@ -448,4 +448,80 @@ ul li {
         width: 20px;
         transform: rotate(360deg);
     }
+}
+
+/*-----------------------------------------About-------------------------------------------*/
+
+.about .wrap {
+    display: grid;
+    grid-template-areas: 'heading pic'
+        'para pic'
+        'cta pic';
+}
+
+.about hr {
+    margin: 0;
+    width: 60%;
+}
+
+.heading {
+    grid-area: heading;
+    align-self: center;
+}
+
+.heading * {
+    margin: 0%;
+}
+
+.heading h2 {
+    font-size: 3rem;
+    color: #E7E9E9;
+}
+
+.heading h3 {
+    font-size: 1.5rem;
+    color: #BAC3CF;
+}
+
+.aboutMe {
+    grid-area: para;
+    font-size: 1rem;
+    width: 90%;
+    color: #BAC3CF;
+}
+
+.aboutMe span {
+    color: #E7E9E9;
+    font-weight: 500;
+}
+
+.about a {
+    grid-area: cta;
+}
+
+.img {
+    grid-area: pic;
+    justify-self: center;
+    width: 75%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    overflow: hidden;
+    background: linear-gradient(to right, #36FBB1, #a8ffde, #a8ffde, #36FBB1);
+    /* filter: blur(0.5px) grayscale(0.8); */
+    transition: 0.5s all linear;
+}
+
+.img img {
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    transition: 0.5s all linear;
+}
+
+.img:hover {
+    filter: blur(0px) grayscale(0) drop-shadow(10px 10px 15px black);
+}
+
+.img:hover>img {
+    transform: scale(1.1);
 }
