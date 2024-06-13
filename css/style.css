@@ -132,8 +132,6 @@ button:active {
     top: 3px;
 }
 
-/*Nav-bar*/
-
 /* Navigation Bar */
 nav {
     width: 100%;
@@ -214,7 +212,6 @@ menu hr {
     }
 }
 
-/* animation classes to show animation in menu button while showing menu in phone*/
 .remove {
     animation: remove 0.3s linear 0s 1 forwards;
 }
@@ -257,7 +254,6 @@ menu hr {
     }
 }
 
-/* animation classes to show animation in menu button while hiding menu */
 .revind2 {
     animation: revind2 0.3s linear 0s 1 forwards;
 }
@@ -323,19 +319,6 @@ ul li {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-@media only screen and (max-width: 600px) {
-
-    nav ul,
-    section {
-        display: none;
-    }
-
-    menu,
-    .phoneMenu {
-        display: flex;
-    }
 }
 
 /*Home*/
@@ -416,7 +399,6 @@ ul li {
     border-right: 3px solid #F14B4B;
 }
 
-/* Background Animation */
 .box {
     position: absolute;
     bottom: 0%;
@@ -465,125 +447,5 @@ ul li {
         height: 20px;
         width: 20px;
         transform: rotate(360deg);
-    }
-}
-
-@media only screen and (max-width: 850px) {
-    .content h1 {
-        font-size: 7rem;
-    }
-
-    .content h2 {
-        font-size: 1.5rem;
-    }
-
-    .content div {
-        min-width: 600px;
-        min-height: 120px;
-    }
-
-    .content div::before {
-        width: 600px;
-        height: 120px;
-        background-size: 1200px;
-    }
-
-    .box1 {
-        left: 10%;
-    }
-
-    .box5 {
-        left: 85%;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .content h1 {
-        font-size: 5rem;
-    }
-
-    .content div {
-        min-width: 440px;
-        min-height: 90px;
-    }
-
-    .content div::before {
-        width: 440px;
-        background-size: 880px;
-        height: 90px;
-    }
-
-    .box5 {
-        display: none;
-    }
-
-    .box2 {
-        left: 35%;
-    }
-
-    .box3 {
-        left: 55%;
-    }
-
-    .box4 {
-        left: 75%;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .content h1 {
-        font-size: 4rem;
-    }
-
-    .content div {
-        min-width: 370px;
-        min-height: 80px;
-    }
-
-    .content div::before {
-        width: 370px;
-        background-size: 740px;
-        height: 80px;
-    }
-
-    .box4 {
-        display: none;
-    }
-
-    .box3 {
-        left: 70%;
-    }
-
-    .box2 {
-        left: 40%;
-    }
-}
-
-@media only screen and (max-width: 425px) {
-    .content h1 {
-        font-size: 3.5rem;
-    }
-
-    .content div {
-        min-width: 310px;
-        min-height: 70px;
-    }
-
-    .content div::before {
-        width: 310px;
-        background-size: 620px;
-        height: 70px;
-    }
-
-    .content h2 {
-        font-size: 1.2rem;
-    }
-
-    .box3 {
-        left: 65%;
-    }
-
-    .box2 {
-        display: none;
     }
 }
