@@ -27,6 +27,10 @@
         text-align: center;
         margin-left: 25%;
     }
+
+        .social-img {
+            width: 10%;
+        }
 }
 
 @media only screen and (max-width: 850px) {
@@ -327,6 +331,10 @@
     footer {
         font-size: 1rem;
     }
+
+        .social-img {
+            width: 12%;
+        }
 }
 
 @media only screen and (max-width: 500px) {
@@ -442,44 +450,6 @@
     }
 }
 
-@media only screen and (max-width: 320px) {
-    .title h1 {
-        font-size: 2.2rem;
-    }
-
-    .part {
-        width: 95%;
-    }
-
-    .about h2 {
-        font-size: 2rem;
-    }
-
-    .skills .wrap {
-        padding: 0 5px;
-    }
-
-    .skills .wrap>p {
-        font-size: 1.1rem;
-    }
-
-    .input-field {
-        font-size: 1rem;
-    }
-
-    .h-captcha {
-        display: none;
-    }
-
-    footer {
-        font-size: 1rem;
-    }
-
-    .content h3 {
-        font-size: 1rem;
-    }
-}
-
 @media only screen and (max-width: 360px) {
     .iteamCircle {
         height: 50px;
@@ -503,6 +473,44 @@
     .projectText>p {
         font-size: 0.8rem;
         font-weight: 800;
+    }
+
+    .h-captcha {
+        display: none;
+    }
+
+    footer {
+        font-size: 1rem;
+    }
+
+    .content h3 {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .title h1 {
+        font-size: 2.2rem;
+    }
+
+    .part {
+        width: 95%;
+    }
+
+    .about h2 {
+        font-size: 2rem;
+    }
+
+    .skills .wrap {
+        padding: 0 5px;
+    }
+
+    .skills .wrap>p {
+        font-size: 1.1rem;
+    }
+
+    .input-field {
+        font-size: 1rem;
     }
 
     .h-captcha {
