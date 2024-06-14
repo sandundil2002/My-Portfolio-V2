@@ -70,11 +70,15 @@
     }
 
     .skills .wrap {
-        padding: 0 20px;
+        padding: 0 5px;
     }
 
     .skills .wrap>p {
         width: 100%;
+    }
+
+    .skills .wrap {
+        grid-template-areas: 'text' 'iteams' 'interest';
     }
 
     .interest {
@@ -139,10 +143,6 @@
         width: 100%;
         filter: blur(0px) grayscale(0) drop-shadow(10px 10px 15px black);
         z-index: -1;
-    }
-
-    .skills .wrap {
-        grid-template-areas: 'text' 'iteams' 'interest';
     }
 
     .interest {
@@ -392,6 +392,15 @@
         width: 33%;
     }
 
+    .interest h3 {
+        font-size: 1.5rem;
+    }
+
+    .interest p {
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+    }
+
     .projectDetails {
         width: 100%;
     }
@@ -444,6 +453,14 @@
 
     .about h2 {
         font-size: 2rem;
+    }
+
+    .skills .wrap {
+        padding: 0 5px;
+    }
+
+    .skills .wrap>p {
+        font-size: 1.1rem;
     }
 
     .input-field {

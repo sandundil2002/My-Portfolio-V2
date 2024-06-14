@@ -547,20 +547,18 @@ ul li {
 
 .skills .wrap>p {
     grid-area: text;
-    width: 75%;
-    text-align: center;
+    width: 80%;
+    text-align: justify;
     color: #BAC3CF;
     font-size: 1.4rem;
-    margin: 0 auto;
     padding: 2%;
 }
 
 .interest {
     grid-area: interest;
-    width: 75%;
+    width: 80%;
     min-height: 17vh;
     padding: 10px;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -578,6 +576,11 @@ ul li {
 
 .interest h3 {
     font-size: 2rem;
+    line-height: 3.5rem;
+}
+
+.interest p{
+    line-height: 1.8rem;
 }
 
 .skillIteams {
@@ -586,7 +589,7 @@ ul li {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, auto);
     align-items: center;
-    width: 90%;
+    width: auto;
     margin: 0 auto;
 }
 
