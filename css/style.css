@@ -454,9 +454,8 @@ ul li {
 
 .about .wrap {
     display: grid;
-    grid-template-areas: 'heading pic'
-        'para pic'
-        'cta pic';
+    grid-template-areas: 'heading pic' 'para pic' 'cta pic';
+
 }
 
 .about hr {
@@ -467,6 +466,7 @@ ul li {
 .heading {
     grid-area: heading;
     align-self: center;
+    text-align: center;
 }
 
 .heading * {
@@ -479,36 +479,40 @@ ul li {
 }
 
 .heading h3 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #BAC3CF;
 }
 
 .aboutMe {
     grid-area: para;
     font-size: 1rem;
-    width: 90%;
+    width: auto;
     color: #BAC3CF;
-}
-
-.aboutMe span {
-    color: #E7E9E9;
-    font-weight: 500;
-}
-
-.about a {
-    grid-area: cta;
+    text-align: justify;
+    padding: 10px;
 }
 
 .img {
     grid-area: pic;
     justify-self: center;
-    width: 75%;
+    width: 80%;
     aspect-ratio: 1/1;
     border-radius: 50%;
     overflow: hidden;
     background: linear-gradient(to right, #36FBB1, #a8ffde, #a8ffde, #36FBB1);
-    /* filter: blur(0.5px) grayscale(0.8); */
     transition: 0.5s all linear;
+}
+
+#mobile-dp {
+    grid-area: pic;
+    justify-self: center;
+    width: 80%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    overflow: hidden;
+    background: linear-gradient(to right, #36FBB1, #a8ffde, #a8ffde, #36FBB1);
+    transition: 0.5s all linear;
+    display: none;
 }
 
 .img img {

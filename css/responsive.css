@@ -10,11 +10,22 @@
     }
 
     .img {
-        width: 80%;
+        width: 100%;
     }
 
     .projectDetails {
         width: 100%;
+    }
+
+    #web-dp {
+        display: none;
+    }
+
+    #mobile-dp {
+        width: 50%;
+        display: block;
+        text-align: center;
+        margin-left: 25%;
     }
 }
 
@@ -55,7 +66,7 @@
     }
 
     .img {
-        width: 85%;
+        width: 100%;
     }
 
     .skills .wrap {
@@ -223,16 +234,16 @@
     footer {
         font-size: 1.3rem;
     }
-}
 
-@media only screen and (max-width: 500px) {
-    .iteamCircle {
-        height: 60px;
-        width: 60px;
+    #web-dp {
+        display: none;
     }
 
-    footer {
-        font-size: 1rem;
+    #mobile-dp {
+        width: 80%;
+        display: block;
+        text-align: center;
+        margin-left: 10%;
     }
 }
 
@@ -286,7 +297,7 @@
     }
 
     .about h2 {
-        font-size: 3rem;
+        font-size: 2.6rem;
     }
 
     .heading {
@@ -294,16 +305,11 @@
     }
 
     .heading h3 {
-        display: none;
-    }
-
-    .aboutMe {
-        width: 100%;
+        font-size: 1rem;
     }
 
     .img {
-        border-radius: 40px;
-        width: 75%;
+        display: none;
     }
 
     .about a {
@@ -316,6 +322,21 @@
 
     .contact .socials {
         width: 30%;
+    }
+
+    footer {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .iteamCircle {
+        height: 60px;
+        width: 60px;
+    }
+
+    .about h2 {
+        font-size: 2.2rem;
     }
 
     footer {
@@ -360,7 +381,11 @@
     }
 
     .about h2 {
-        font-size: 2.5rem;
+        font-size: 2rem;
+    }
+
+    .about h3 {
+        font-size: 0.8rem;
     }
 
     .about hr {
