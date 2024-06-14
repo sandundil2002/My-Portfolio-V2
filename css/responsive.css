@@ -28,9 +28,9 @@
         margin-left: 25%;
     }
 
-        .social-img {
-            width: 10%;
-        }
+    .social-img {
+        width: 10%;
+    }
 }
 
 @media only screen and (max-width: 850px) {
@@ -332,9 +332,9 @@
         font-size: 1rem;
     }
 
-        .social-img {
-            width: 12%;
-        }
+    .social-img {
+        width: 12%;
+    }
 }
 
 @media only screen and (max-width: 500px) {

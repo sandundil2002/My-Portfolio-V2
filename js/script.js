@@ -6,7 +6,7 @@ let count = 0;
 let nav = document.querySelector("nav");
 let before = 0;
 let pos = 0;
-const navHeight = -nav.clientHeight; 
+const navHeight = -nav.clientHeight;
 
 /*------------------------------------Menu-Btn----------------------------------*/
 document.querySelector("menu").addEventListener("click", () => {
@@ -117,7 +117,7 @@ window.onload = function () {
 };
 
 window.addEventListener("scroll", function (e) {
-  let after = this.scrollY; 
+  let after = this.scrollY;
   if (after != 0) {
     nav.style.boxShadow = "0px 5px 15px black";
   } else {
