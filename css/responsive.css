@@ -402,6 +402,10 @@
     footer {
         font-size: 1rem;
     }
+
+    .content h3 {
+        font-size: 1rem;
+    }
 }
 
 @media only screen and (max-width: 320px) {
@@ -428,6 +432,10 @@
     footer {
         font-size: 1rem;
     }
+
+    .content h3 {
+        font-size: 1rem;
+    }
 }
 
 @media only screen and (max-width: 360px) {
@@ -437,6 +445,10 @@
     }
 
     footer {
+        font-size: 1rem;
+    }
+
+    .content h3 {
         font-size: 1rem;
     }
 }
@@ -456,6 +468,10 @@
     }
 
     footer {
+        font-size: 1rem;
+    }
+
+    .content h3 {
         font-size: 1rem;
     }
 }
