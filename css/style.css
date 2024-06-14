@@ -661,6 +661,9 @@ ul li {
     display: flex;
     margin: 20px 0;
     text-align: center;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    padding: 10px;
 }
 
 .projectDetails img {
