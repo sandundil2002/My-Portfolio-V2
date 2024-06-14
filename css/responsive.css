@@ -12,6 +12,10 @@
     .img {
         width: 80%;
     }
+
+    .projectDetails {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 850px) {
@@ -159,6 +163,58 @@
     .iteam5 {
         grid-area: iteam5;
     }
+
+    .projectDetails {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        background-color: #0B1E31;
+        border-radius: 20px;
+    }
+
+    .projectDetails>img {
+        width: 95%;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+
+    .projectText {
+        right: 0%;
+        display: grid;
+        grid-template-areas: 'heading heading tech tech tech'
+            'heading heading link link link'
+            'details details details details details';
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .projectText>h2 {
+        grid-area: heading;
+        text-align: left;
+        padding-left: 20px;
+        font-size: 2rem;
+    }
+
+    .projectText>p {
+        grid-area: tech;
+        text-align: right;
+        margin: 0%;
+        padding-right: 20px;
+    }
+
+    .platforms {
+        grid-area: link;
+        text-align: right;
+        margin-bottom: 10px;
+        padding-right: 20px;
+    }
+
+    .details {
+        grid-area: details;
+        background-color: #00000000;
+        box-shadow: 0 0 0;
+        margin-bottom: 10px;
+        padding: 0px;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -286,6 +342,30 @@
     .about hr {
         width: 33%;
     }
+
+    .projectDetails {
+        width: 100%;
+    }
+
+    .projectText {
+        grid-template-areas: 'heading heading tech tech tech'
+            'heading heading link link link'
+            'details details details details details';
+        grid-template-columns: 1fr 1fr 2fr 1.5fr 1.5fr;
+    }
+
+    .projectText>h2 {
+        font-size: 1.7rem;
+        color: white;
+    }
+
+    .projectText>p {
+        margin-top: 10px;
+    }
+
+    .details>p {
+        font-size: 0.8rem;
+    }
 }
 
 @media only screen and (max-width: 320px) {
@@ -312,5 +392,10 @@
 @media only screen and (max-width: 375px) {
     .iteam p {
         font-size: 0.8rem;
+    }
+
+    .projectText>p {
+        font-size: 0.8rem;
+        font-weight: 800;
     }
 }
