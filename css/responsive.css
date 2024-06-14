@@ -74,6 +74,10 @@
         height: 70px;
         width: 70px;
     }
+
+    footer {
+        font-size: 1.5rem;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -215,12 +219,20 @@
         margin-bottom: 10px;
         padding: 0px;
     }
+
+    footer {
+        font-size: 1.3rem;
+    }
 }
 
 @media only screen and (max-width: 500px) {
     .iteamCircle {
         height: 60px;
         width: 60px;
+    }
+
+    footer {
+        font-size: 1rem;
     }
 }
 
@@ -305,6 +317,10 @@
     .contact .socials {
         width: 30%;
     }
+
+    footer {
+        font-size: 1rem;
+    }
 }
 
 @media only screen and (max-width: 425px) {
@@ -382,6 +398,10 @@
     .contact .socials {
         width: 40%;
     }
+
+    footer {
+        font-size: 1rem;
+    }
 }
 
 @media only screen and (max-width: 320px) {
@@ -404,12 +424,20 @@
     .h-captcha {
         display: none;
     }
+
+    footer {
+        font-size: 1rem;
+    }
 }
 
 @media only screen and (max-width: 360px) {
     .iteamCircle {
         height: 50px;
         width: 50px;
+    }
+
+    footer {
+        font-size: 1rem;
     }
 }
 
@@ -425,5 +453,9 @@
 
     .h-captcha {
         display: none;
+    }
+
+    footer {
+        font-size: 1rem;
     }
 }

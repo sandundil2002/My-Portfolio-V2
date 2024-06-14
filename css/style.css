@@ -785,3 +785,17 @@ label {
 .social-img {
     width: 6%;
 }
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inconsolata', monospace;
+    color: white;
+    height: 10vh;
+    font-size: 2rem;
+}
+
+footer span {
+    border-right: 1px solid white;
+}

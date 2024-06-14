@@ -7,6 +7,7 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/contactIcon.css">
     <link rel="icon" href="./assets/Logo.svg">
 </head>
 
@@ -14,7 +15,7 @@
     <nav>
         <a href=""><img src="./assets/Logo.svg" alt=""></a>
         <ul>
-            <li><a href="#About">Home</a></li>
+            <li><a href="#">Home</a></li>
             <li><a href="#About">About</a></li>
             <li><a href="#Skills">Skills</a></li>
             <li><a href="#Projects">Projects</a></li>
@@ -28,6 +29,7 @@
     </nav>
 
     <div class="phoneMenu">
+        <h2><a href="#" onclick="hideMenu()";>Home</a></h2>
         <h2><a href="#About" onclick="hideMenu();">About</a></h2>
         <h2><a href="#Skills" onclick="hideMenu();">Skills</a></h2>
         <h2><a href="#Projects" onclick="hideMenu();">Projects</a></h2>
@@ -367,24 +369,40 @@
             </button><br><br>
 
             <div id="social-container">
-                <a href="https://www.linkedin.com/in/sandun-dilshan-a640b7272"><img class="social-img" src="./assets/Linkedin.gif" alt=""></a>
+                <a href="https://www.linkedin.com/in/sandun-dilshan-a640b7272"><img class="social-img"
+                        src="./assets/Linkedin.gif" alt=""></a>
                 <a href="https://github.com/sandundil2002"><img class="social-img" src="./assets/Github.gif" alt=""></a>
                 <a href="mailto:sandundil2002@gmail.com"><img class="social-img" src="./assets/mail.gif" alt=""></a>
-                <a href="https://twitter.com/sandundil2002"><img class="social-img" src="./assets/Twitter.gif" alt=""></a>
-                <a href="https://msng.link/o?+94762357995=tg"><img class="social-img" src="./assets/Telegram.gif" alt=""></a>
-                <a href="https://www.facebook.com/sandun.dilshan.10048?mibextid=ZbWKwL"><img class="social-img" src="./assets/Facebook.gif" alt=""></a>
+                <a href="https://twitter.com/sandundil2002"><img class="social-img" src="./assets/Twitter.gif"
+                        alt=""></a>
+                <a href="https://msng.link/o?+94762357995=tg"><img class="social-img" src="./assets/Telegram.gif"
+                        alt=""></a>
+                <a href="https://www.facebook.com/sandun.dilshan.10048?mibextid=ZbWKwL"><img class="social-img"
+                        src="./assets/Facebook.gif" alt=""></a>
                 <a href="https://wa.link/dg90zs"><img class="social-img" src="./assets/Whatsapp.gif" alt=""></a>
             </div>
         </form>
 
         <footer>
             <span class="footer" data-wait="500"
-                data-words='["I love to code.","Creating better version of mine!!","Searching for opportunities.","Learning..."]'></span>
+                data-words='["Innovating every day.","Building future tech.","Exploring new horizons.","Always learning.","Embracing challenges.","Coding with passion."]'></span>
         </footer>
     </div>
 
     <script src="/js/script.js"></script>
     <script src="https://web3forms.com/client/script.js" async defer></script>
+    <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
+    <script>
+        AOS.init({
+            offset: 150,
+            duration: 800
+        });
+        if (window.innerWidth <= 768) {
+            document.querySelector(".interest").removeAttribute("data-aos-anchor");
+            document.querySelector(".healerText").setAttribute("data-aos-anchor", ".healerImg")
+            document.querySelector(".colorGuessText").setAttribute("data-aos-anchor", ".colorGuessImg")
+        }
+    </script>
 </body>
 
 </html>
