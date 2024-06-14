@@ -343,7 +343,48 @@
         </div>
     </div>
 
+    <!-- Contact Me -->
+    <div class="contact part" id="Contact">
+        <div class="title">
+            <h1>Contact</h1>
+            <hr>
+        </div><br>
+
+        <form class="con-form" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="6581ad61-8613-4c2a-b8cf-08265caca1cb">
+
+            <label for="exampleInputName">Name</label><br>
+            <input type="text" class="input-field" name="Name" required><br><br><br>
+
+            <label for="exampleInputEmail">E-mail</label><br>
+            <input type="email" class="input-field" name="Email" required><br><br><br>
+
+            <label for="exampleInputMessage">Type Your Message</label><br>
+            <textarea name="message" id="message" class="input-field" required></textarea><br><br> <br>
+
+            <div class="h-captcha" data-captcha="true"></div><br>
+            <button type="submit" class="">Submit
+                Form</button><br><br>
+
+            <div id="social-container">
+                <img class="social-img" src="./assets/Linkedin.gif" alt="">
+                <img class="social-img" src="./assets/Github.gif" alt="">
+                <img class="social-img" src="./assets/mail.gif" alt="">
+                <img class="social-img" src="./assets/Twitter.gif" alt="">
+                <img class="social-img" src="./assets/Telegram.gif" alt="">
+                <img class="social-img" src="./assets/Facebook.gif" alt="">
+                <img class="social-img" src="./assets/Whatsapp.gif" alt="">
+            </div>
+        </form>
+
+        <footer>
+            <span class="footer" data-wait="500"
+                data-words='["I love to code.","Creating better version of mine!!","Searching for opportunities.","Learning..."]'></span>
+        </footer>
+    </div>
+
     <script src="/js/script.js"></script>
+    <script src="https://web3forms.com/client/script.js" async defer></script>
 </body>
 
 </html>

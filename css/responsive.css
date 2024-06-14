@@ -297,6 +297,14 @@
     .about a {
         margin: 20px auto;
     }
+
+           .contact h3 {
+               width: 80%;
+           }
+    
+           .contact .socials {
+               width: 30%;
+           }
 }
 
 @media only screen and (max-width: 425px) {
@@ -366,6 +374,14 @@
     .details>p {
         font-size: 0.8rem;
     }
+
+                .contact h3 {
+                    width: 90%;
+                }
+        
+                .contact .socials {
+                    width: 40%;
+                }
 }
 
 @media only screen and (max-width: 320px) {
