@@ -298,13 +298,13 @@
         margin: 20px auto;
     }
 
-           .contact h3 {
-               width: 80%;
-           }
-    
-           .contact .socials {
-               width: 30%;
-           }
+    .contact h3 {
+        width: 80%;
+    }
+
+    .contact .socials {
+        width: 30%;
+    }
 }
 
 @media only screen and (max-width: 425px) {
@@ -375,13 +375,13 @@
         font-size: 0.8rem;
     }
 
-                .contact h3 {
-                    width: 90%;
-                }
-        
-                .contact .socials {
-                    width: 40%;
-                }
+    .contact h3 {
+        width: 90%;
+    }
+
+    .contact .socials {
+        width: 40%;
+    }
 }
 
 @media only screen and (max-width: 320px) {
@@ -395,6 +395,14 @@
 
     .about h2 {
         font-size: 2rem;
+    }
+
+    .input-field {
+        font-size: 1rem;
+    }
+
+    .h-captcha {
+        display: none;
     }
 }
 
@@ -413,5 +421,9 @@
     .projectText>p {
         font-size: 0.8rem;
         font-weight: 800;
+    }
+
+    .h-captcha {
+        display: none;
     }
 }

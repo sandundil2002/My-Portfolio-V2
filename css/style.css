@@ -745,26 +745,21 @@ ul li {
     z-index: -1;
 }
 
-.contact .socials {
-    display: flex;
-    justify-content: space-around;
-    width: 25%;
-}
-
 .con-form {
-    width: 100%;
+    width: auto;
     padding: 20px;
-    margin: auto;
+    margin: 20px;
     background-color: #6c757d;
-    border: 3px solid black;
+    border: 2px solid white;
+    border-radius: 10px;
 }
 
-label{
+label {
     color: white;
     text-align: left;
 }
 
-.input-field{
+.input-field {
     width: 95%;
     height: 6vh;
     border: 2px solid #36FBB1;
@@ -774,17 +769,17 @@ label{
     color: black;
 }
 
-#message{
+#message {
     height: 12vh;
 }
 
-.h-captcha{
-  text-align: center;
+.h-captcha {
+    text-align: center;
+    margin: 0 auto;
 }
 
 #social-container {
     text-align: center;
-    margin-top: 20px;
 }
 
 .social-img {
