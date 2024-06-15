@@ -65,7 +65,6 @@ window.onresize = () => {
 };
 
 /*------------------------------------Type-Writer----------------------------------*/
-
 const TypeWriter = function (txtElement, words, wait) {
   this.txtElement = txtElement;
   this.words = words;
@@ -88,7 +87,7 @@ TypeWriter.prototype.type = function () {
 
   this.txtElement.innerHTML = '<span class = "txt">' + this.txt + "</span>";
 
-  let typeSpeed = 100;
+  let typeSpeed = 200;
   if (this.isDeleting) {
     typeSpeed /= 2;
   }
